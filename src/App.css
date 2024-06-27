@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='1440' preserveAspectRatio='none' viewBox='0 0 1440 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1810%26quot%3b)' fill='none'%3e%3crect width='1440' height='1440' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1811%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L516.4 0L0 35.45z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 35.45L516.4 0L920.37 0L0 236.31z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 236.31L920.37 0L1176.21 0L0 275.54z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 275.54L1176.21 0L1248.22 0L0 670.59z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 1440L1033.58 1440L1440 1248.16z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 1248.16L1033.58 1440L995.41 1440L1440 666.7900000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 666.79L995.41 1440L627.15 1440L1440 304.34999999999997z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 304.3499999999999L627.15 1440L280.17999999999995 1440L1440 204.2899999999999z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1810'%3e%3crect width='1440' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1811'%3e%3cstop stop-color='rgba(0%2c 146%2c 70%2c 0.998)' offset='0.11'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 0.74)' offset='0.5'%3e%3c/stop%3e%3cstop stop-color='rgba(200%2c 0%2c 0%2c 0.94)' offset='0.85'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: sans-serif;
+  
+}
+.logo-de-frada{
+  background-color: black;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.product {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+.product h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.product button {
+  margin-top: 10px;
+}
+
+
+/* App.css (o tu archivo de estilos personalizados) */
+.card img{
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-img-top {
+  width: 100%;
+  height: cover;
+}
+
+.card-title {
+  font-size: 1.25rem; /* Tamaño de fuente personalizado */
+}
+
+.card-text {
+  margin-bottom: 1rem; /* Espacio inferior entre el texto y el botón */
+}
+
+.card-btn {
+  margin-top: auto; /* Alineación del botón en la parte inferior de la tarjeta */
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Estilos para el contador de productos repetidos */
+.badge {
+  font-size: 0.75rem; /* Tamaño de fuente más pequeño */
+  padding: 0.25rem 0.5rem; /* Espaciado interior */
+  border-radius: 0.25rem; /* Bordes redondeados */
+}
+
+.custom-nav-link {
+  color: #343a40;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.custom-nav-link:hover {
+  color: #ff6f61; /* Color al pasar el mouse */
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .custom-nav-link {
+    color: #ffffff; /* Color del texto en el menú hamburguesa */
+    padding: 10px 20px; /* Añade un poco de padding para mejorar la apariencia */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='1440' preserveAspectRatio='none' viewBox='0 0 1440 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1810%26quot%3b)' fill='none'%3e%3crect width='1440' height='1440' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1811%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L516.4 0L0 35.45z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 35.45L516.4 0L920.37 0L0 236.31z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 236.31L920.37 0L1176.21 0L0 275.54z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 275.54L1176.21 0L1248.22 0L0 670.59z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 1440L1033.58 1440L1440 1248.16z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 1248.16L1033.58 1440L995.41 1440L1440 666.7900000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 666.79L995.41 1440L627.15 1440L1440 304.34999999999997z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 304.3499999999999L627.15 1440L280.17999999999995 1440L1440 204.2899999999999z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1810'%3e%3crect width='1440' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1811'%3e%3cstop stop-color='rgba(0%2c 146%2c 70%2c 0.998)' offset='0.11'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 0.74)' offset='0.5'%3e%3c/stop%3e%3cstop stop-color='rgba(200%2c 0%2c 0%2c 0.94)' offset='0.85'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 5px 0; /* Espacio entre los elementos del menú */
+  }
+
+  .navbar-nav .custom-nav-link:hover {
+    color: #6e6e6e; /* Color al pasar el mouse en el menú hamburguesa */
+    background-color: #495057; /* Fondo al pasar el mouse */
+  }
+  
+}
+.container-fluid{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='50' preserveAspectRatio='none' viewBox='0 0 1440 50'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1814%26quot%3b)' fill='none'%3e%3crect width='1440' height='50' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1815%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L273.79 0L0 2.05z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 2.05L273.79 0L661.9200000000001 0L0 16.54z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 16.54L661.9200000000001 0L839.1500000000001 0L0 21.59z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 21.59L839.1500000000001 0L1184.14 0L0 23.63z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 50L1211.52 50L1440 46.16z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 46.16L1211.52 50L993.1899999999999 50L1440 40.059999999999995z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 40.06L993.19 50L917.2900000000001 50L1440 28.610000000000003z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 28.61L917.29 50L568.46 50L1440 23.07z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1814'%3e%3crect width='1440' height='50' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='24.13%25' y1='-695%25' x2='75.87%25' y2='795%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1815'%3e%3cstop stop-color='rgba(0%2c 146%2c 70%2c 0.998)' offset='0.11'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 0.74)' offset='0.5'%3e%3c/stop%3e%3cstop stop-color='rgba(200%2c 0%2c 0%2c 0.94)' offset='0.85'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
